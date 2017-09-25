@@ -106,20 +106,27 @@ h1, h2 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 480px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.hero-heading, .sub-heading {
+.hero-heading, .subheading {
   font-family: 'Roboto Condensed', sans-serif;
   color: white;
   text-align: center;
+  display: flex;
 }
 
 .hero-heading {
   font-weight: bold;
-  font-size: 42px
+  font-size: 42px;
+  padding-top: 15px;
 }
 
-.sub-heading {
+.subheading {
   text-transform: uppercase;
   font-size: 21px;
 }
