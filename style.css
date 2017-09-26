@@ -186,7 +186,12 @@ h1, h2 {
 
 /* Section */
 .thirds {
-	margin-top: 5px
+	margin-top: 5px;
+}
+
+.sidebar,
+.schedule {
+	vertical-align: top;
 }
 
 .sidebar {
@@ -196,6 +201,7 @@ h1, h2 {
 	background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
 	width:30%;
+	display: inline-block;
 	padding: 95px 40px 100px 60px;
 }
 
@@ -211,4 +217,40 @@ h1, h2 {
 
 .objectives {
 	margin-left: 15px;
+}
+
+ /*Schedule*/
+
+ .schedule {
+	 display: inline-block;
+	 width: 50%;
+	 padding: 90px 70px 80px;
+ }
+
+ .schedule .small-header {
+	 margin: 40px 0 15px;
+ }
+
+.small-header {
+	font-size: 21px;
+}
+
+.schedule-bottom {
+	padding: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.schedule-bottom a {
+	text-decoration: none;
+}
+
+.schedule-bottom a:hover {
+	text-decoration: underline;
+  color: #14e9b6;
+}
+
+.schedule-bottom span {
+	margin-right: 15px;
+	margin-left: 15px
 }
